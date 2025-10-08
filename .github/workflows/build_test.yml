@@ -22,7 +22,6 @@ jobs:
       run: npm install
     - name: Start Backend
       run: npm run start-be
-    - run: npm ci
     - name: Startr Frontend
       run: npm run start-fe
     - name: Execute Playwright UI tests
