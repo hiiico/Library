@@ -22,10 +22,10 @@ jobs:
       run: npm install
     - name: Manually update the config.js file
       run: 
-        echo "export const settings = { host: 'http://localhost:3030' };" > src/config.js
+        echo "export const settings = { host:'http://localhost:3030' };" > src/config.js
     - name: Start Backend
       run: npm run start-be &
-    - name: Startr Frontend
+    - name: Start Frontend
       run: npm run start-fe &
     - name: Install Playwright Browsers
       run : npx playwright install
