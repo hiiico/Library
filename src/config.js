@@ -1,3 +1,1 @@
-export const settings = {
-    host: "https://library-edfq.onrender.com"
-};
+export const settings = { host: 'http://localhost:3030' };
